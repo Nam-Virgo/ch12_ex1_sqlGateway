@@ -63,10 +63,13 @@ public class SqlGatewayServlet extends HttpServlet {
         }
 
         // ✅ Lưu kết quả cho JSP hiển thị
-        HttpSession session = request.getSession();
+        /*HttpSession session = request.getSession();
         session.setAttribute("sqlStatement", sqlStatement);
         session.setAttribute("sqlResult", sqlResult);
-        session.setAttribute("message", message);
+        session.setAttribute("message", message); */
+        request.setAttribute("message", message);
+        request.setAttribute("sqlResult", sqlResult);
+
 
         // ✅ Forward về index.jsp
         String url = "/index.jsp";
