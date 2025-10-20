@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/ch12_ex1_sqlGateway">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="5" maxTotal="20" maxWaitMillis="10000" name="jdbc/murach" password="AVNS_ZLvSA8OF03VG_OcWQlv" type="javax.sql.DataSource" url="jdbc:mysql://mysql-120e9d9b-student-d4a9.b.aivencloud.com:14521/defaultdb?useSSL=true&amp;requireSSL=true&amp;serverTimezone=UTC" username="avnadmin"/>
+</Context>
