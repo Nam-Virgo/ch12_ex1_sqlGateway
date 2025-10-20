@@ -67,6 +67,7 @@ public class SqlGatewayServlet extends HttpServlet {
         session.setAttribute("sqlStatement", sqlStatement);
         session.setAttribute("sqlResult", sqlResult);
         session.setAttribute("message", message); */
+        
         request.setAttribute("message", message);
         request.setAttribute("sqlResult", sqlResult);
 

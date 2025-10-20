@@ -22,6 +22,5 @@ SELECT * FROM user;
 <c:out value="${message}" escapeXml="false" /><br>
 <c:out value="${sqlResult}" escapeXml="false" />
 
-
 </body>
 </html>
